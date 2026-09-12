@@ -1,0 +1,2621 @@
+{
+  "overall_metrics": {
+    "total_questions": 53,
+    "mrr": 0.6437,
+    "mean_top1_cosine": 0.5798,
+    "precision@1": 0.566,
+    "recall@1": 0.566,
+    "mean_cosine@1": 0.5798,
+    "precision@3": 0.4843,
+    "recall@3": 0.7358,
+    "mean_cosine@3": 0.5581,
+    "precision@5": 0.434,
+    "recall@5": 0.7736,
+    "mean_cosine@5": 0.5448
+  },
+  "jurisdiction_breakdown": {
+    "Bengaluru": {
+      "total_questions": 28,
+      "recall@3_hit_rate": 0.75,
+      "precision@3": 0.4881,
+      "mrr": 0.6262
+    },
+    "Other": {
+      "total_questions": 11,
+      "recall@3_hit_rate": 0.5455,
+      "precision@3": 0.2727,
+      "mrr": 0.4621
+    },
+    "Delhi": {
+      "total_questions": 14,
+      "recall@3_hit_rate": 0.8571,
+      "precision@3": 0.6429,
+      "mrr": 0.8214
+    }
+  },
+  "category_breakdown": {
+    "utilities": {
+      "total_questions": 15,
+      "recall@3_hit_rate": 0.8,
+      "precision@3": 0.4889,
+      "mrr": 0.7278
+    },
+    "rent_revision": {
+      "total_questions": 5,
+      "recall@3_hit_rate": 0.8,
+      "precision@3": 0.4667,
+      "mrr": 0.7
+    },
+    "security_deposit": {
+      "total_questions": 8,
+      "recall@3_hit_rate": 0.75,
+      "precision@3": 0.5833,
+      "mrr": 0.6042
+    },
+    "entry_notice": {
+      "total_questions": 3,
+      "recall@3_hit_rate": 1.0,
+      "precision@3": 0.6667,
+      "mrr": 0.8333
+    },
+    "eviction": {
+      "total_questions": 2,
+      "recall@3_hit_rate": 0.5,
+      "precision@3": 0.3333,
+      "mrr": 0.5
+    },
+    "lease_terms": {
+      "total_questions": 3,
+      "recall@3_hit_rate": 0.3333,
+      "precision@3": 0.1111,
+      "mrr": 0.2333
+    },
+    "lease_expiry": {
+      "total_questions": 2,
+      "recall@3_hit_rate": 1.0,
+      "precision@3": 0.3333,
+      "mrr": 0.6667
+    },
+    "lease_renewal": {
+      "total_questions": 1,
+      "recall@3_hit_rate": 1.0,
+      "precision@3": 0.6667,
+      "mrr": 1.0
+    },
+    "termination": {
+      "total_questions": 2,
+      "recall@3_hit_rate": 0.5,
+      "precision@3": 0.3333,
+      "mrr": 0.5
+    },
+    "rent_default": {
+      "total_questions": 3,
+      "recall@3_hit_rate": 0.6667,
+      "precision@3": 0.4445,
+      "mrr": 0.6667
+    },
+    "harassment": {
+      "total_questions": 2,
+      "recall@3_hit_rate": 0.0,
+      "precision@3": 0.0,
+      "mrr": 0.0
+    },
+    "repairs": {
+      "total_questions": 3,
+      "recall@3_hit_rate": 1.0,
+      "precision@3": 1.0,
+      "mrr": 1.0
+    },
+    "rent_receipts": {
+      "total_questions": 1,
+      "recall@3_hit_rate": 1.0,
+      "precision@3": 1.0,
+      "mrr": 1.0
+    },
+    "subletting": {
+      "total_questions": 2,
+      "recall@3_hit_rate": 1.0,
+      "precision@3": 0.5,
+      "mrr": 0.6667
+    },
+    "occupancy": {
+      "total_questions": 1,
+      "recall@3_hit_rate": 0.0,
+      "precision@3": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "per_query_results": [
+    {
+      "id": "eval_01",
+      "question": "My landlord is charging me a fixed monthly \"water charges\" fee even though the municipal water supply is irregular \u2014 is this legal?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "utility charges and maintenance",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.4614,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.4464,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4233,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.4181,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "The Bombay Tenancy and Agricultural Lands Act, 1948",
+          "score": 0.3967,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_02",
+      "question": "Can a landlord charge for water supply separately from rent under Karnataka tenancy law?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "Karnataka Rent Act separate charges",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "B.V. Manjunatha vs Smt. Gangamma on 14 June, 2005 (Karnataka High Court)",
+          "score": 0.6542,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5612,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5385,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.5385,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "THE KARNATAKA RENT ACT, 1999",
+          "score": 0.5337,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_03",
+      "question": "Is a landlord obligated to ensure basic amenities like water supply are functional under the rental agreement?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "essential supplies and maintenance",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.6047,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5813,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5637,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5461,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.5376,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_04",
+      "question": "If water supply is inadequate, can a tenant refuse to pay the \"water charges\" portion of rent?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "rent withholding and repair deductions",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5647,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.4988,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.4921,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.4866,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.4856,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_05",
+      "question": "What can a tenant do if the landlord keeps charging for services (water) that aren't actually being provided properly?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "Rent Court complaint essential services",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5937,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5598,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5529,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.5481,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5254,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.8,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_06",
+      "question": "Does the Model Tenancy Act 2021 say anything about landlord obligations for water/utility supply?",
+      "jurisdiction": "Other",
+      "category": "utilities",
+      "expected_topic": "Model Tenancy Act Section 15 and 20",
+      "mrr": 0.25,
+      "first_relevant_rank": 4,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.595,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5475,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5361,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.523,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "The Bombay Tenancy and Agricultural Lands Act, 1948",
+          "score": 0.5177,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_07",
+      "question": "Can a tenant deduct disputed utility charges from rent unilaterally, or is that illegal?",
+      "jurisdiction": "Other",
+      "category": "utilities",
+      "expected_topic": "Transfer of Property Act Section 108 repair deductions",
+      "mrr": 0.3333333333333333,
+      "first_relevant_rank": 3,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5441,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5308,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5307,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.5074,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.4982,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_08",
+      "question": "Is charging for poor/interrupted water supply considered \"deficiency of service\" under consumer law?",
+      "jurisdiction": "Other",
+      "category": "utilities",
+      "expected_topic": "deficiency of service and consumer remedy",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.4626,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "The Bombay Tenancy and Agricultural Lands Act, 1948",
+          "score": 0.4076,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.4007,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Artlife Wellness Products Pvt Ltd vs Dr(Mrs)Nirmala Taneja & Anr on 22 September, 2010",
+          "score": 0.3879,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.3663,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_09",
+      "question": "Which forum should a tenant approach for a dispute over utility charges \u2014 rent court, consumer forum, or civil court?",
+      "jurisdiction": "Other",
+      "category": "utilities",
+      "expected_topic": "Rent Authority vs Civil Court jurisdiction",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Md. Nizamuddin Ahmed vs On The Death Of Ahmed Hossain His Legal ... on 4 March, 2022",
+          "score": 0.5053,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.4731,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Chota Nagpur Tenancy Act, 1908",
+          "score": 0.4704,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4701,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "). Smt. Padma Srinivasa vs Shivakumara.M on 29 July, 2026",
+          "score": 0.4625,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_10",
+      "question": "Can a landlord increase \"water charges\" mid-lease without written consent?",
+      "jurisdiction": "Other",
+      "category": "rent_revision",
+      "expected_topic": "unilateral rent and charge revision",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5121,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.4837,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.4772,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4768,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4767,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_11",
+      "question": "My landlord isn't returning my security deposit after I moved out \u2014 what can I do?",
+      "jurisdiction": "Bengaluru",
+      "category": "security_deposit",
+      "expected_topic": "security deposit refund and notice",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5683,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5678,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5548,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.5462,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.5377,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_12",
+      "question": "Is there a legal deadline for landlords to return a security deposit in Karnataka?",
+      "jurisdiction": "Bengaluru",
+      "category": "security_deposit",
+      "expected_topic": "deposit refund upon vacant possession",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Sri. H.A. Chitra Shekharaiah vs Smt. Lakshmi Devi on 22 April, 2022",
+          "score": 0.6686,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.6214,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.6138,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Nandana Reddy M vs Sheetal Nenavath on 19 April, 2024",
+          "score": 0.613,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.6051,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 0.8,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_13",
+      "question": "Can a landlord deduct arbitrary amounts from the deposit without an itemized bill?",
+      "jurisdiction": "Bengaluru",
+      "category": "security_deposit",
+      "expected_topic": "wear and tear vs valid deductions",
+      "mrr": 0.3333333333333333,
+      "first_relevant_rank": 3,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Chota Nagpur Tenancy Act, 1908",
+          "score": 0.5448,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5253,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5156,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5103,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.4924,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_14",
+      "question": "What documentation should a tenant keep to dispute unfair deposit deductions?",
+      "jurisdiction": "Other",
+      "category": "security_deposit",
+      "expected_topic": "evidence move-in move-out inspection",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Chota Nagpur Tenancy Act, 1908",
+          "score": 0.6338,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.6112,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.5945,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.574,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5711,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_15",
+      "question": "Can a landlord enter my rented apartment without prior notice?",
+      "jurisdiction": "Delhi",
+      "category": "entry_notice",
+      "expected_topic": "prior entry notice requirements",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5272,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5154,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.4914,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.4854,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4828,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_16",
+      "question": "What is the legal notice period a landlord must give before entering a tenant's unit?",
+      "jurisdiction": "Delhi",
+      "category": "entry_notice",
+      "expected_topic": "Model Tenancy Act entry notice requirements",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.623,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5938,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5696,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5694,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5585,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_17",
+      "question": "Is it legal for a landlord to increase rent mid-lease without a written agreement?",
+      "jurisdiction": "Delhi",
+      "category": "rent_revision",
+      "expected_topic": "rent revision during fixed-term tenancy",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.6241,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6206,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.5954,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.5853,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.5774,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_18",
+      "question": "Can a tenant be evicted without a court order in Delhi?",
+      "jurisdiction": "Delhi",
+      "category": "eviction",
+      "expected_topic": "due process and eviction decree",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "M.M. Quasim vs Manohar Lal Sharma on 22 April, 1981 (Supreme Court)",
+          "score": 0.6216,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "V. Dhanapal Chettiar vs Yesodai Ammal on 23 August, 1979 (Supreme Court)",
+          "score": 0.6206,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "1. Mrs. Kailash Suneja (C.W. No. 5220 Of ... vs Appropriate Authority And Others. Dr. ... on 17 December, 1997",
+          "score": 0.599,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Ravinder Kaur vs Ashok Kumar on 1 October, 2003 (Supreme Court)",
+          "score": 0.5903,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "State of U.P. vs Maharaja Dharmander Prasad Singh on 17 January, 1989",
+          "score": 0.5839,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_19",
+      "question": "What is the legal process for eviction under the Delhi Rent Control Act?",
+      "jurisdiction": "Delhi",
+      "category": "eviction",
+      "expected_topic": "statutory eviction grounds and Section 14",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "V. Dhanapal Chettiar vs Yesodai Ammal on 23 August, 1979 (Supreme Court)",
+          "score": 0.7299,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Mrs. Kailash Suneja & Ors. vs Appropriate Authority & Ors. on 17 December, 1997",
+          "score": 0.6988,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "1. Mrs. Kailash Suneja (C.W. No. 5220 Of ... vs Appropriate Authority And Others. Dr. ... on 17 December, 1997",
+          "score": 0.6642,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.652,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.6406,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_20",
+      "question": "If a rental agreement doesn't mention utility charges at all, can the landlord still bill for them separately?",
+      "jurisdiction": "Other",
+      "category": "lease_terms",
+      "expected_topic": "written agreement and additional charge terms",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5377,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.528,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4887,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.483,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.4811,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_21",
+      "question": "Can a landlord cut off water or electricity supply to force a tenant to vacate?",
+      "jurisdiction": "Other",
+      "category": "utilities",
+      "expected_topic": "essential services and unlawful disconnection",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.6263,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5975,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.539,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5261,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.4959,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 0.8,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_22",
+      "question": "Is a verbal agreement about extra charges (like water) enforceable if not in the written lease?",
+      "jurisdiction": "Other",
+      "category": "lease_terms",
+      "expected_topic": "verbal tenancy terms and written agreement",
+      "mrr": 0.5,
+      "first_relevant_rank": 2,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.5217,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5107,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5103,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.5006,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.4899,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_23",
+      "question": "What rights does a tenant have if amenities promised in the lease agreement are not delivered?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "contractual amenities and landlord obligations",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5905,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.5528,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "THE TRANSFER OF PROPERTY ACT, 1882",
+          "score": 0.5442,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.5415,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.5414,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_24",
+      "question": "Can a housing society or landlord justify a flat \"maintenance + water charges\" fee without showing usage-based billing?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "maintenance obligations and additional charges",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5146,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4473,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.4379,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Chota Nagpur Tenancy Act, 1908",
+          "score": 0.4343,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.4268,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_25",
+      "question": "If a tenant complains about poor water supply and the landlord retaliates with a rent hike, is that legally actionable?",
+      "jurisdiction": "Other",
+      "category": "rent_revision",
+      "expected_topic": "retaliatory rent increase and tenant remedies",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5536,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5007,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.4995,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.487,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.484,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_26",
+      "question": "Where can a tenant file a complaint against a landlord for unfair or undocumented charges in Bengaluru?",
+      "jurisdiction": "Bengaluru",
+      "category": "utilities",
+      "expected_topic": "Rent Authority and Civil Court jurisdiction",
+      "mrr": 0.3333333333333333,
+      "first_relevant_rank": 3,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "M/S Healthy Foods Services Rept. By Its ... vs Manjunatha Reddy on 8 January, 2025",
+          "score": 0.5829,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.5804,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Sri.Ajjappa vs M/S.Reliance Corporate It Park Ltd on 25 November, 2022",
+          "score": 0.5442,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "M/S Healthy Foods Services Rept. By Its ... vs Manjunatha Reddy on 8 January, 2025",
+          "score": 0.5364,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "P.Arumugam vs T.N.Parandaman on 14 July, 2020",
+          "score": 0.5314,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_27",
+      "question": "Does Karnataka law require landlords to disclose the breakdown of \"additional charges\" like water/maintenance in the rent agreement?",
+      "jurisdiction": "Bengaluru",
+      "category": "lease_terms",
+      "expected_topic": "tenancy agreement disclosure and additional charges",
+      "mrr": 0.2,
+      "first_relevant_rank": 5,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.6069,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "THE KARNATAKA RENT ACT, 1999",
+          "score": 0.5854,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "B.V. Manjunatha vs Smt. Gangamma on 14 June, 2005 (Karnataka High Court)",
+          "score": 0.5745,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "M/S Healthy Foods Services Rept. By Its ... vs Manjunatha Reddy on 8 January, 2025",
+          "score": 0.5596,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Sri. H.A. Chitra Shekharaiah vs Smt. Lakshmi Devi on 22 April, 2022",
+          "score": 0.5569,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_28",
+      "question": "Can consumer courts hear cases about deficiency in services provided by landlords, like poor water supply?",
+      "jurisdiction": "Other",
+      "category": "utilities",
+      "expected_topic": "consumer protection and tenant services",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4835,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.4787,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Md. Nizamuddin Ahmed vs On The Death Of Ahmed Hossain His Legal ... on 4 March, 2022",
+          "score": 0.4609,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.4601,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Md. Nizamuddin Ahmed vs On The Death Of Ahmed Hossain His Legal ... on 4 March, 2022",
+          "score": 0.4511,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_29",
+      "question": "Can a landlord evict a tenant simply because the rental agreement has expired?",
+      "jurisdiction": "Bengaluru",
+      "category": "lease_expiry",
+      "expected_topic": "expiry of tenancy and termination notice",
+      "mrr": 0.3333333333333333,
+      "first_relevant_rank": 3,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.63,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.586,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5779,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5653,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5605,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_30",
+      "question": "If my lease agreement is for 11 months, what happens when the 11 months are over and I continue paying rent?",
+      "jurisdiction": "Bengaluru",
+      "category": "lease_expiry",
+      "expected_topic": "holding over and continuation of tenancy",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE TRANSFER OF PROPERTY ACT, 1882",
+          "score": 0.6339,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.6035,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5726,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5711,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.57,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_31",
+      "question": "Can a landlord refuse to renew my rental agreement without giving a reason?",
+      "jurisdiction": "Delhi",
+      "category": "lease_renewal",
+      "expected_topic": "renewal rights and contractual terms",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.5224,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5164,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.51,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.5037,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5011,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_32",
+      "question": "How much notice must a tenant Otherly give before moving out of a rented property?",
+      "jurisdiction": "Bengaluru",
+      "category": "termination",
+      "expected_topic": "tenant termination notice and lease terms",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5782,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5698,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5544,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5499,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5475,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_33",
+      "question": "Can a landlord terminate my tenancy before the agreed lease period ends?",
+      "jurisdiction": "Bengaluru",
+      "category": "termination",
+      "expected_topic": "early termination and contractual grounds",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.6802,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.6695,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6654,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.6395,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "The Gujarat Tenancy and Agricultural Lands (Vidarbha Region and Kutch) Area Act, 1958",
+          "score": 0.6124,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_34",
+      "question": "What happens if a tenant stops paying rent because the landlord has failed to make necessary repairs?",
+      "jurisdiction": "Bengaluru",
+      "category": "rent_default",
+      "expected_topic": "rent withholding and repair obligations",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6809,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.6736,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.6733,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6057,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.6,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_35",
+      "question": "Can a landlord charge late-payment penalties that were never mentioned in the rental agreement?",
+      "jurisdiction": "Bengaluru",
+      "category": "rent_default",
+      "expected_topic": "contractual terms and additional charges",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5465,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5276,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5256,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5231,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5174,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_36",
+      "question": "Can a landlord evict a tenant for repeatedly paying rent a few days late?",
+      "jurisdiction": "Delhi",
+      "category": "rent_default",
+      "expected_topic": "default in rent payment and eviction grounds",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5466,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5352,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5347,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5179,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5128,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_37",
+      "question": "Can a landlord increase the rent after the lease has already been signed for a fixed period?",
+      "jurisdiction": "Delhi",
+      "category": "rent_revision",
+      "expected_topic": "fixed-term lease and unilateral rent increase",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.6025,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5969,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5832,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "The Bihar Government Estates (Khas-Mahal) Manual, 1953",
+          "score": 0.5577,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5434,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.8,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_38",
+      "question": "Can a landlord demand a large rent increase immediately after the tenant complains about maintenance problems?",
+      "jurisdiction": "Bengaluru",
+      "category": "rent_revision",
+      "expected_topic": "retaliatory conduct and rent revision",
+      "mrr": 0.5,
+      "first_relevant_rank": 2,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5752,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5525,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5502,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5482,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5177,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_39",
+      "question": "Can a landlord enter the apartment repeatedly without the tenant's permission even after being asked not to?",
+      "jurisdiction": "Delhi",
+      "category": "entry_notice",
+      "expected_topic": "landlord entry rights and tenant privacy",
+      "mrr": 0.5,
+      "first_relevant_rank": 2,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Firm Of Habibbhai Gulam Mohmad vs The Municipal Corporation on 31 October, 1961",
+          "score": 0.4872,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.4828,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.4819,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.4665,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.4652,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_40",
+      "question": "Can a landlord use security guards or other people to pressure a tenant into vacating the property?",
+      "jurisdiction": "Bengaluru",
+      "category": "harassment",
+      "expected_topic": "harassment and unlawful eviction methods",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5225,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5043,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5012,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.4931,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Firm Of Habibbhai Gulam Mohmad vs The Municipal Corporation on 31 October, 1961",
+          "score": 0.4927,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_41",
+      "question": "What legal remedies may a tenant have if the landlord repeatedly threatens them to leave without following eviction procedure?",
+      "jurisdiction": "Bengaluru",
+      "category": "harassment",
+      "expected_topic": "illegal eviction pressure and available remedies",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5826,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5737,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5466,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5403,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5294,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_42",
+      "question": "Can a landlord disconnect electricity or water because the tenant is involved in a rent dispute?",
+      "jurisdiction": "Delhi",
+      "category": "utilities",
+      "expected_topic": "essential services and unlawful disconnection",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Ramji Prasad vs District Magistrate, Allahabad on 15 March, 1999",
+          "score": 0.6161,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5771,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5282,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5159,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5037,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 0.8,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_43",
+      "question": "Can a tenant install minor fixtures or make repairs to a rented property without landlord permission?",
+      "jurisdiction": "Bengaluru",
+      "category": "repairs",
+      "expected_topic": "tenant alterations and repair obligations",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5605,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5457,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5305,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5279,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5208,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_44",
+      "question": "Who is normally responsible for major plumbing repairs in a rented apartment?",
+      "jurisdiction": "Bengaluru",
+      "category": "repairs",
+      "expected_topic": "landlord and tenant repair responsibilities",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6314,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5264,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.4863,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.4654,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "The Bombay Tenancy and Agricultural Lands Act, 1948",
+          "score": 0.4378,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_45",
+      "question": "Can a tenant recover the cost of emergency repairs from the landlord if the landlord refused to act?",
+      "jurisdiction": "Bengaluru",
+      "category": "repairs",
+      "expected_topic": "repair reimbursement and deduction",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6068,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.6015,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5816,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5288,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5195,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_46",
+      "question": "Can a landlord refuse to give a tenant a rent receipt for monthly payments made by bank transfer?",
+      "jurisdiction": "Delhi",
+      "category": "rent_receipts",
+      "expected_topic": "rent receipt and proof of payment",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Chota Nagpur Tenancy Act, 1908",
+          "score": 0.624,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6133,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.6071,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5932,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Chota Nagpur Tenancy Act, 1908",
+          "score": 0.5869,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_47",
+      "question": "Can a landlord keep the security deposit because of normal wear and tear in the apartment?",
+      "jurisdiction": "Bengaluru",
+      "category": "security_deposit",
+      "expected_topic": "normal wear and tear versus tenant damage",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5361,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5254,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5208,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5098,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5016,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_48",
+      "question": "Can a landlord deduct painting costs from the security deposit when the tenant has caused no unusual damage?",
+      "jurisdiction": "Bengaluru",
+      "category": "security_deposit",
+      "expected_topic": "painting charges and ordinary wear and tear",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.555,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5441,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5368,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Sri. H.A. Chitra Shekharaiah vs Smt. Lakshmi Devi on 22 April, 2022",
+          "score": 0.5283,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5263,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_49",
+      "question": "Can a landlord demand a new security deposit every time a rental agreement is renewed?",
+      "jurisdiction": "Delhi",
+      "category": "security_deposit",
+      "expected_topic": "security deposit limits and renewal terms",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.6417,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.6298,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.6284,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.6269,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.6048,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "precision@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_50",
+      "question": "Can a tenant sublet the apartment to another person without the landlord's permission?",
+      "jurisdiction": "Delhi",
+      "category": "subletting",
+      "expected_topic": "subletting restrictions and landlord consent",
+      "mrr": 1.0,
+      "first_relevant_rank": 1,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5517,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.4998,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.4934,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Chota Nagpur Tenancy Act, 1908",
+          "score": 0.4775,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Firm Of Habibbhai Gulam Mohmad vs The Municipal Corporation on 31 October, 1961",
+          "score": 0.4772,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 1.0,
+      "recall@1": 1.0,
+      "precision@3": 0.6667,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_51",
+      "question": "What can happen if a tenant allows another person to occupy the apartment while remaining responsible for the rent?",
+      "jurisdiction": "Bengaluru",
+      "category": "subletting",
+      "expected_topic": "subletting and unauthorized occupation",
+      "mrr": 0.3333333333333333,
+      "first_relevant_rank": 3,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.5917,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.5852,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.544,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.542,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5416,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.4,
+      "recall@5": 1.0
+    },
+    {
+      "id": "eval_52",
+      "question": "Can a landlord evict a tenant for keeping a paying guest in the apartment?",
+      "jurisdiction": "Delhi",
+      "category": "occupancy",
+      "expected_topic": "paying guests and unauthorized occupants",
+      "mrr": 0.0,
+      "first_relevant_rank": 0,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "THE MODEL TENANCY ACT, 2021",
+          "score": 0.575,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5281,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Jammu and Kashmir Residential and Commercial Tenancy Act, 2012",
+          "score": 0.5277,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5271,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "title": "S. Sundaram Pillai, Etc vs V.R. Pattabiraman Etc on 24 January, 1985",
+          "score": 0.5258,
+          "is_relevant": false
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.0,
+      "recall@3": 0.0,
+      "precision@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "eval_53",
+      "question": "Can a landlord refuse to return the deposit until the tenant finds a replacement tenant?",
+      "jurisdiction": "Bengaluru",
+      "category": "security_deposit",
+      "expected_topic": "deposit obligations after termination and vacant possession",
+      "mrr": 0.5,
+      "first_relevant_rank": 2,
+      "retrieved_ranks": [
+        {
+          "rank": 1,
+          "title": "Andhra Pradesh Residential and Non-Residential Premises Tenancy Act, 2017",
+          "score": 0.593,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+          "score": 0.5784,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "title": "Rajasthan Rent Control Act, 2001",
+          "score": 0.5674,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.5655,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "title": "Smt Mahendra Kaur Arora vs Rent Appe Tribunal Jaipur &Anr on 9 January, 2012",
+          "score": 0.5651,
+          "is_relevant": true
+        }
+      ],
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "precision@3": 0.3333,
+      "recall@3": 1.0,
+      "precision@5": 0.6,
+      "recall@5": 1.0
+    }
+  ]
+}

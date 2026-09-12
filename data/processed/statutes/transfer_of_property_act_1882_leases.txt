@@ -1,0 +1,47 @@
+THE TRANSFER OF PROPERTY ACT, 1882
+Jurisdiction: Central Legislation (Act No. 4 of 1882) - Chapter V (Leases)
+Statutory baseline provisions governing leases of immovable property, lessor/lessee rights, liabilities, and determination of leases
+under Indian Law.
+CHAPTER V: OF LEASES OF IMMOVABLE PROPERTY
+Section 105 - Lease Defined:
+A lease of immovable property is a transfer of a right to enjoy such property, made for a certain time, express or implied, or in
+perpetuity, in consideration of a price paid or promised, or of money, a share of crops, service or any other thing of value, to be
+rendered periodically or on specified occasions to the transferor by the transferee, who accepts the transfer on such terms.
+The transferor is called the lessor, the transferee is called the lessee, the price is called the premium, and the money, share, service
+or other thing to be so rendered is called the rent.
+Section 106 - Duration of Certain Leases in Absence of Written Contract:
+(1) In the absence of a contract or local law or usage to the contrary, a lease of immovable property for agricultural or manufacturing
+purposes shall be deemed to be a lease from year to year, terminable, on the part of either lessor or lessee, by six months' notice;
+and a lease of immovable property for any other purpose shall be deemed to be a lease from month to month, terminable, on the part
+of either lessor or lessee, by fifteen days' notice.
+(2) The period of notice shall commence from the date of receipt of notice.
+RIGHTS AND LIABILITIES OF LESSOR AND LESSEE
+Section 108 - Rights and Liabilities of Lessor and Lessee:
+In the absence of a contract or local usage to the contrary:
+(A) Rights and Liabilities of the Lessor:
+(a) The lessor is bound to disclose to the lessee any material defect in the property;
+(b) The lessor is bound on the lessee's request to put him in possession of the property;
+(c) The lessor shall be deemed to contract with the lessee that the lessee may hold the property during the time limited by the lease
+without interruption (covenant of quiet enjoyment).
+(B) Rights and Liabilities of the Lessee:
+(f) If the lessor neglects to make any repairs which he is bound to make, the lessee may make them himself and deduct the expense
+from the rent;
+(g) If the lessor neglects to make any payment which is recoverable from the property, the lessee may make such payment and
+deduct it from the rent;
+(m) The lessee is bound to keep, and on termination of the lease to restore, the property in as good condition as it was in at the time
+when he was put in possession, reasonable wear and tear accepted;
+(o) The lessee must use the property as a person of ordinary prudence would use his own.
+DETERMINATION OF LEASE & FORFEITURE
+Section 111 - Determination of Lease:
+A lease of immovable property determines:
+(a) by efflux of the time limited thereby;
+(b) where such time is conditioned on the happening of some event, by the happening of such event;
+(c) by the surrender of the lease by mutual agreement;
+(d) by forfeiture in case the lessee breaks an express condition providing for re-entry;
+(e) on the expiration of a notice to determine the lease, or to quit, or of intention to quit, the property leased, duly given by one party to
+the other.
+
+Section 116 - Effect of Holding Over:
+If a lessee remains in possession thereof after the determination of the lease, and the lessor or his legal representative accepts rent
+from the lessee, or otherwise assents to his continuing in possession, the lease is, in the absence of an agreement to the contrary,
+renewed from year to year, or from month to month, according to the purpose for which the property is leased.

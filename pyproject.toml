@@ -1,0 +1,31 @@
+[project]
+name = "tenant-rag"
+version = "0.1.0"
+description = "AI-assisted legal information tool for tenants facing landlord disputes in Indian metro cities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "sentence-transformers",
+    "faiss-cpu",
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "python-dotenv",
+    "beautifulsoup4",
+    "requests",
+    "pdfplumber",
+    "fpdf2",
+    "pandas",
+    "pyyaml",
+    "tqdm",
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+extraPaths = [".", "src"]

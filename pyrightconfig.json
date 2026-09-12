@@ -1,0 +1,14 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "include": [
+    "src",
+    "tests",
+    "configs"
+  ],
+  "extraPaths": [
+    ".",
+    "src"
+  ],
+  "typeCheckingMode": "basic"
+}

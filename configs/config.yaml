@@ -1,0 +1,39 @@
+# RAG Configuration for Indian Metro Tenant Rights System
+
+# Document chunking parameters
+chunking:
+  chunk_size: 512
+  chunk_overlap: 64
+
+# Embedding model & vector store
+embeddings:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  dimension: 384
+  faiss_index_path: "data/embeddings/faiss.index"
+  chunk_ids_path: "data/embeddings/chunk_ids.jsonl"
+
+# LLM model parameters
+llm:
+  provider: "groq"
+  model_name: "openai/gpt-oss-120b"
+  temperature: 0.1
+  max_new_tokens: 1024
+
+# Retrieval settings
+retrieval:
+  top_k: 4
+  similarity_threshold: 0.6
+
+# Supported jurisdictional contexts
+jurisdictions:
+  - "Bengaluru"
+  - "Delhi"
+  - "Other"
+
+# Project data directory paths
+paths:
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  chunks_dir: "data/chunks"
+  embeddings_dir: "data/embeddings"
+  eval_dir: "data/eval"

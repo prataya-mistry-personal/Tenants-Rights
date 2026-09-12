@@ -1,0 +1,22 @@
+# Core NLP & Retrieval
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+pyyaml
+
+# API & Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# Data Scraping & Extraction
+beautifulsoup4
+requests
+pdfplumber
+fpdf2
+tqdm
+
+# Testing
+pytest

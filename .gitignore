@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data & Model weights
+data/embeddings/*.index
+data/embeddings/*.faiss
+data/embeddings/*.pkl
+*.bin
+*.pt
+*.safetensors
+
+# Node modules
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.env
